@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C45C4E701D47D7CD00D32CAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C4E6F1D47D7CD00D32CAF /* AppDelegate.swift */; };
+		C45C4E731D47D7CD00D32CAF /* CosmicRunner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C45C4E711D47D7CD00D32CAF /* CosmicRunner.xcdatamodeld */; };
+		C45C4E751D47D7CD00D32CAF /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C4E741D47D7CD00D32CAF /* MasterViewController.swift */; };
+		C45C4E771D47D7CD00D32CAF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C4E761D47D7CD00D32CAF /* DetailViewController.swift */; };
+		C45C4E7A1D47D7CD00D32CAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45C4E781D47D7CD00D32CAF /* Main.storyboard */; };
+		C45C4E7C1D47D7CD00D32CAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45C4E7B1D47D7CD00D32CAF /* Assets.xcassets */; };
+		C45C4E7F1D47D7CD00D32CAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45C4E7D1D47D7CD00D32CAF /* LaunchScreen.storyboard */; };
+		C45C4E8A1D47D7CD00D32CAF /* CosmicRunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C4E891D47D7CD00D32CAF /* CosmicRunnerTests.swift */; };
+		C45C4E951D47D7CD00D32CAF /* CosmicRunnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C4E941D47D7CD00D32CAF /* CosmicRunnerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C45C4E861D47D7CD00D32CAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C45C4E641D47D7CD00D32CAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C45C4E6B1D47D7CD00D32CAF;
+			remoteInfo = CosmicRunner;
+		};
+		C45C4E911D47D7CD00D32CAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C45C4E641D47D7CD00D32CAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C45C4E6B1D47D7CD00D32CAF;
+			remoteInfo = CosmicRunner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C45C4E6C1D47D7CD00D32CAF /* CosmicRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CosmicRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45C4E6F1D47D7CD00D32CAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C45C4E721D47D7CD00D32CAF /* CosmicRunner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CosmicRunner.xcdatamodel; sourceTree = "<group>"; };
+		C45C4E741D47D7CD00D32CAF /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		C45C4E761D47D7CD00D32CAF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C45C4E791D47D7CD00D32CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C45C4E7B1D47D7CD00D32CAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C45C4E7E1D47D7CD00D32CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C45C4E801D47D7CD00D32CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45C4E851D47D7CD00D32CAF /* CosmicRunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CosmicRunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45C4E891D47D7CD00D32CAF /* CosmicRunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmicRunnerTests.swift; sourceTree = "<group>"; };
+		C45C4E8B1D47D7CD00D32CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45C4E901D47D7CD00D32CAF /* CosmicRunnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CosmicRunnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45C4E941D47D7CD00D32CAF /* CosmicRunnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmicRunnerUITests.swift; sourceTree = "<group>"; };
+		C45C4E961D47D7CD00D32CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C45C4E691D47D7CD00D32CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45C4E821D47D7CD00D32CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45C4E8D1D47D7CD00D32CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C45C4E631D47D7CD00D32CAF = {
+			isa = PBXGroup;
+			children = (
+				C45C4E6E1D47D7CD00D32CAF /* CosmicRunner */,
+				C45C4E881D47D7CD00D32CAF /* CosmicRunnerTests */,
+				C45C4E931D47D7CD00D32CAF /* CosmicRunnerUITests */,
+				C45C4E6D1D47D7CD00D32CAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C45C4E6D1D47D7CD00D32CAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C45C4E6C1D47D7CD00D32CAF /* CosmicRunner.app */,
+				C45C4E851D47D7CD00D32CAF /* CosmicRunnerTests.xctest */,
+				C45C4E901D47D7CD00D32CAF /* CosmicRunnerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C45C4E6E1D47D7CD00D32CAF /* CosmicRunner */ = {
+			isa = PBXGroup;
+			children = (
+				C45C4E6F1D47D7CD00D32CAF /* AppDelegate.swift */,
+				C45C4E741D47D7CD00D32CAF /* MasterViewController.swift */,
+				C45C4E761D47D7CD00D32CAF /* DetailViewController.swift */,
+				C45C4E781D47D7CD00D32CAF /* Main.storyboard */,
+				C45C4E7B1D47D7CD00D32CAF /* Assets.xcassets */,
+				C45C4E7D1D47D7CD00D32CAF /* LaunchScreen.storyboard */,
+				C45C4E801D47D7CD00D32CAF /* Info.plist */,
+				C45C4E711D47D7CD00D32CAF /* CosmicRunner.xcdatamodeld */,
+			);
+			path = CosmicRunner;
+			sourceTree = "<group>";
+		};
+		C45C4E881D47D7CD00D32CAF /* CosmicRunnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C45C4E891D47D7CD00D32CAF /* CosmicRunnerTests.swift */,
+				C45C4E8B1D47D7CD00D32CAF /* Info.plist */,
+			);
+			path = CosmicRunnerTests;
+			sourceTree = "<group>";
+		};
+		C45C4E931D47D7CD00D32CAF /* CosmicRunnerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C45C4E941D47D7CD00D32CAF /* CosmicRunnerUITests.swift */,
+				C45C4E961D47D7CD00D32CAF /* Info.plist */,
+			);
+			path = CosmicRunnerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C45C4E6B1D47D7CD00D32CAF /* CosmicRunner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45C4E991D47D7CD00D32CAF /* Build configuration list for PBXNativeTarget "CosmicRunner" */;
+			buildPhases = (
+				C45C4E681D47D7CD00D32CAF /* Sources */,
+				C45C4E691D47D7CD00D32CAF /* Frameworks */,
+				C45C4E6A1D47D7CD00D32CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CosmicRunner;
+			productName = CosmicRunner;
+			productReference = C45C4E6C1D47D7CD00D32CAF /* CosmicRunner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C45C4E841D47D7CD00D32CAF /* CosmicRunnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45C4E9C1D47D7CD00D32CAF /* Build configuration list for PBXNativeTarget "CosmicRunnerTests" */;
+			buildPhases = (
+				C45C4E811D47D7CD00D32CAF /* Sources */,
+				C45C4E821D47D7CD00D32CAF /* Frameworks */,
+				C45C4E831D47D7CD00D32CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C45C4E871D47D7CD00D32CAF /* PBXTargetDependency */,
+			);
+			name = CosmicRunnerTests;
+			productName = CosmicRunnerTests;
+			productReference = C45C4E851D47D7CD00D32CAF /* CosmicRunnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C45C4E8F1D47D7CD00D32CAF /* CosmicRunnerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45C4E9F1D47D7CD00D32CAF /* Build configuration list for PBXNativeTarget "CosmicRunnerUITests" */;
+			buildPhases = (
+				C45C4E8C1D47D7CD00D32CAF /* Sources */,
+				C45C4E8D1D47D7CD00D32CAF /* Frameworks */,
+				C45C4E8E1D47D7CD00D32CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C45C4E921D47D7CD00D32CAF /* PBXTargetDependency */,
+			);
+			name = CosmicRunnerUITests;
+			productName = CosmicRunnerUITests;
+			productReference = C45C4E901D47D7CD00D32CAF /* CosmicRunnerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C45C4E641D47D7CD00D32CAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = infancyit;
+				TargetAttributes = {
+					C45C4E6B1D47D7CD00D32CAF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C45C4E841D47D7CD00D32CAF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C45C4E6B1D47D7CD00D32CAF;
+					};
+					C45C4E8F1D47D7CD00D32CAF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C45C4E6B1D47D7CD00D32CAF;
+					};
+				};
+			};
+			buildConfigurationList = C45C4E671D47D7CD00D32CAF /* Build configuration list for PBXProject "CosmicRunner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C45C4E631D47D7CD00D32CAF;
+			productRefGroup = C45C4E6D1D47D7CD00D32CAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C45C4E6B1D47D7CD00D32CAF /* CosmicRunner */,
+				C45C4E841D47D7CD00D32CAF /* CosmicRunnerTests */,
+				C45C4E8F1D47D7CD00D32CAF /* CosmicRunnerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C45C4E6A1D47D7CD00D32CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45C4E7F1D47D7CD00D32CAF /* LaunchScreen.storyboard in Resources */,
+				C45C4E7C1D47D7CD00D32CAF /* Assets.xcassets in Resources */,
+				C45C4E7A1D47D7CD00D32CAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45C4E831D47D7CD00D32CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45C4E8E1D47D7CD00D32CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C45C4E681D47D7CD00D32CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45C4E701D47D7CD00D32CAF /* AppDelegate.swift in Sources */,
+				C45C4E731D47D7CD00D32CAF /* CosmicRunner.xcdatamodeld in Sources */,
+				C45C4E751D47D7CD00D32CAF /* MasterViewController.swift in Sources */,
+				C45C4E771D47D7CD00D32CAF /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45C4E811D47D7CD00D32CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45C4E8A1D47D7CD00D32CAF /* CosmicRunnerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45C4E8C1D47D7CD00D32CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45C4E951D47D7CD00D32CAF /* CosmicRunnerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C45C4E871D47D7CD00D32CAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C45C4E6B1D47D7CD00D32CAF /* CosmicRunner */;
+			targetProxy = C45C4E861D47D7CD00D32CAF /* PBXContainerItemProxy */;
+		};
+		C45C4E921D47D7CD00D32CAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C45C4E6B1D47D7CD00D32CAF /* CosmicRunner */;
+			targetProxy = C45C4E911D47D7CD00D32CAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C45C4E781D47D7CD00D32CAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C45C4E791D47D7CD00D32CAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C45C4E7D1D47D7CD00D32CAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C45C4E7E1D47D7CD00D32CAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C45C4E971D47D7CD00D32CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C45C4E981D47D7CD00D32CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C45C4E9A1D47D7CD00D32CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CosmicRunner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.infancyit.CosmicRunner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C45C4E9B1D47D7CD00D32CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CosmicRunner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.infancyit.CosmicRunner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C45C4E9D1D47D7CD00D32CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CosmicRunnerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.infancyit.CosmicRunnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CosmicRunner.app/CosmicRunner";
+			};
+			name = Debug;
+		};
+		C45C4E9E1D47D7CD00D32CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CosmicRunnerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.infancyit.CosmicRunnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CosmicRunner.app/CosmicRunner";
+			};
+			name = Release;
+		};
+		C45C4EA01D47D7CD00D32CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CosmicRunnerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.infancyit.CosmicRunnerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CosmicRunner;
+			};
+			name = Debug;
+		};
+		C45C4EA11D47D7CD00D32CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CosmicRunnerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.infancyit.CosmicRunnerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CosmicRunner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C45C4E671D47D7CD00D32CAF /* Build configuration list for PBXProject "CosmicRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45C4E971D47D7CD00D32CAF /* Debug */,
+				C45C4E981D47D7CD00D32CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C45C4E991D47D7CD00D32CAF /* Build configuration list for PBXNativeTarget "CosmicRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45C4E9A1D47D7CD00D32CAF /* Debug */,
+				C45C4E9B1D47D7CD00D32CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C45C4E9C1D47D7CD00D32CAF /* Build configuration list for PBXNativeTarget "CosmicRunnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45C4E9D1D47D7CD00D32CAF /* Debug */,
+				C45C4E9E1D47D7CD00D32CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C45C4E9F1D47D7CD00D32CAF /* Build configuration list for PBXNativeTarget "CosmicRunnerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45C4EA01D47D7CD00D32CAF /* Debug */,
+				C45C4EA11D47D7CD00D32CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C45C4E711D47D7CD00D32CAF /* CosmicRunner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C45C4E721D47D7CD00D32CAF /* CosmicRunner.xcdatamodel */,
+			);
+			currentVersion = C45C4E721D47D7CD00D32CAF /* CosmicRunner.xcdatamodel */;
+			path = CosmicRunner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C45C4E641D47D7CD00D32CAF /* Project object */;
+}
