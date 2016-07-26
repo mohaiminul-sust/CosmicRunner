@@ -16,6 +16,10 @@
 		C45C4E7F1D47D7CD00D32CAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45C4E7D1D47D7CD00D32CAF /* LaunchScreen.storyboard */; };
 		C45C4E8A1D47D7CD00D32CAF /* CosmicRunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C4E891D47D7CD00D32CAF /* CosmicRunnerTests.swift */; };
 		C45C4E951D47D7CD00D32CAF /* CosmicRunnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C4E941D47D7CD00D32CAF /* CosmicRunnerUITests.swift */; };
+		C45C4EA61D47DA3600D32CAF /* Run+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C4EA21D47DA3600D32CAF /* Run+CoreDataProperties.swift */; };
+		C45C4EA71D47DA3600D32CAF /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C4EA31D47DA3600D32CAF /* Run.swift */; };
+		C45C4EA81D47DA3600D32CAF /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C4EA41D47DA3600D32CAF /* Location+CoreDataProperties.swift */; };
+		C45C4EA91D47DA3600D32CAF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C4EA51D47DA3600D32CAF /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		C45C4E901D47D7CD00D32CAF /* CosmicRunnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CosmicRunnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45C4E941D47D7CD00D32CAF /* CosmicRunnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmicRunnerUITests.swift; sourceTree = "<group>"; };
 		C45C4E961D47D7CD00D32CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45C4EA21D47DA3600D32CAF /* Run+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Run+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C45C4EA31D47DA3600D32CAF /* Run.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		C45C4EA41D47DA3600D32CAF /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C45C4EA51D47DA3600D32CAF /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,10 @@
 				C45C4E6F1D47D7CD00D32CAF /* AppDelegate.swift */,
 				C45C4E741D47D7CD00D32CAF /* MasterViewController.swift */,
 				C45C4E761D47D7CD00D32CAF /* DetailViewController.swift */,
+				C45C4EA21D47DA3600D32CAF /* Run+CoreDataProperties.swift */,
+				C45C4EA31D47DA3600D32CAF /* Run.swift */,
+				C45C4EA41D47DA3600D32CAF /* Location+CoreDataProperties.swift */,
+				C45C4EA51D47DA3600D32CAF /* Location.swift */,
 				C45C4E781D47D7CD00D32CAF /* Main.storyboard */,
 				C45C4E7B1D47D7CD00D32CAF /* Assets.xcassets */,
 				C45C4E7D1D47D7CD00D32CAF /* LaunchScreen.storyboard */,
@@ -263,7 +275,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C45C4E701D47D7CD00D32CAF /* AppDelegate.swift in Sources */,
+				C45C4EA81D47DA3600D32CAF /* Location+CoreDataProperties.swift in Sources */,
+				C45C4EA91D47DA3600D32CAF /* Location.swift in Sources */,
+				C45C4EA71D47DA3600D32CAF /* Run.swift in Sources */,
 				C45C4E731D47D7CD00D32CAF /* CosmicRunner.xcdatamodeld in Sources */,
+				C45C4EA61D47DA3600D32CAF /* Run+CoreDataProperties.swift in Sources */,
 				C45C4E751D47D7CD00D32CAF /* MasterViewController.swift in Sources */,
 				C45C4E771D47D7CD00D32CAF /* DetailViewController.swift in Sources */,
 			);
