@@ -20,6 +20,7 @@
 		C45C4EA71D47DA3600D32CAF /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C4EA31D47DA3600D32CAF /* Run.swift */; };
 		C45C4EA81D47DA3600D32CAF /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C4EA41D47DA3600D32CAF /* Location+CoreDataProperties.swift */; };
 		C45C4EA91D47DA3600D32CAF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C4EA51D47DA3600D32CAF /* Location.swift */; };
+		C45C4EAC1D47DAD500D32CAF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45C4EAA1D47DA9100D32CAF /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,11 @@
 		C45C4EA31D47DA3600D32CAF /* Run.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
 		C45C4EA41D47DA3600D32CAF /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		C45C4EA51D47DA3600D32CAF /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		C45C4EAA1D47DA9100D32CAF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C45C4EAD1D47DAE100D32CAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C45C4EAF1D47DAE800D32CAF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C45C4EB11D47DAF200D32CAF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C45C4EB31D47DAF800D32CAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C45C4EAC1D47DAD500D32CAF /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +96,11 @@
 		C45C4E631D47D7CD00D32CAF = {
 			isa = PBXGroup;
 			children = (
+				C45C4EB31D47DAF800D32CAF /* Foundation.framework */,
+				C45C4EB11D47DAF200D32CAF /* UIKit.framework */,
+				C45C4EAF1D47DAE800D32CAF /* CoreData.framework */,
+				C45C4EAD1D47DAE100D32CAF /* CoreGraphics.framework */,
+				C45C4EAA1D47DA9100D32CAF /* MapKit.framework */,
 				C45C4E6E1D47D7CD00D32CAF /* CosmicRunner */,
 				C45C4E881D47D7CD00D32CAF /* CosmicRunnerTests */,
 				C45C4E931D47D7CD00D32CAF /* CosmicRunnerUITests */,
